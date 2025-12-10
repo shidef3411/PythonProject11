@@ -11,7 +11,7 @@ from kivy.core.window import Window
 
 class NotificationApp(App):
     def build(self):
-        # Устанавливаем белый фон окна
+        # белый 
         Window.clearcolor = (1, 1, 1, 1)
 
         # Главный layout - вертикальный контейнер
@@ -244,4 +244,5 @@ class NotificationApp(App):
 
 # Запуск приложения
 if __name__ == '__main__':
+
     NotificationApp().run()
