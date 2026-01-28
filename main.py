@@ -1,3 +1,8 @@
+#для запуска необходимо установить зависимости 
+#дкоманды для установки: pip install kivy
+#pip install plyer
+
+
 #импорт 
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
@@ -247,4 +252,5 @@ class NotificationApp(App):
 if __name__ == '__main__':
 
     NotificationApp().run()
+
 
